@@ -1,4 +1,0 @@
-rootProject.name = 'WebSKT'
-
-//include ':MundoCore'
-//project(':MundoCore').projectDir = new File(settingsDir, '../MundoCore')

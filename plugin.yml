@@ -1,0 +1,23 @@
+name: WebSKT
+version: 1.0-BETA.2
+main: us.tlatoani.webskt.WebSKT
+description: A Skript addon providing WebSocket client and server functionality.
+authors:
+ - Tlatoani
+website: tlatoani.us/webskt
+depend:
+ - Skript
+commands:
+  webskt:
+    description: Basic information about WebSKT, viewing documentation, reloading
+      the config, and updating.
+    permission: webskt.command
+    permission-message: You don't have the right permissions for that command!
+permissions:
+  webskt.*:
+    description: Permission for things related to WebSKT
+    children:
+     - webskt.command
+  webskt.command:
+    description: Permission to run the /webskt command
+    default: op
