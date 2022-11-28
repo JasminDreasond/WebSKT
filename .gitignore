@@ -1,3 +1,12 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
 # Packages #
 ############
 # it's better to unpack these files and commit the raw source
@@ -27,14 +36,19 @@ Thumbs.db
 *~
 *.swp
 
+# Gradle Files #
+################
+.gradle
+.m2
+
 # Build output directies
+/bin
 /target
 */target
 /build
 */build
 
 # IntelliJ specific files/directories
-bin
 out
 .idea
 *.ipr
